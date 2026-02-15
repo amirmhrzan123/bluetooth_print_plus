@@ -1,4 +1,4 @@
-name: bluetooth_print_plus
+name: bluetooth
 description: bluetooth_print_plus is a flutter plugin for bluetooth thermal printer, support Android & iOS,.
 version: 2.4.5
 homepage: https://github.com/amoLink/bluetooth_print_plus
