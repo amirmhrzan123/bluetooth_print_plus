@@ -367,6 +367,12 @@ public class BluetoothPrintPlusPlugin
       } else {
         pendingResult.error("no_permissions", "this plugin requires location permissions for scanning", null);
         pendingResult = null;
+        if (pendingResult != null) {
+          pendingResult.error("no_permissions", "this plugin requires location permissions for scanning", null);
+          pendingResult = null;
+        } else {
+          LogUtils.e(TAG, "pendingResult is null in onRequestPermissionsResult");
+        }
       }
       return true;
     }
